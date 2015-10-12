@@ -1,0 +1,83 @@
+Introduction
+
+
+Electron Paramagnetic Resonance (EPR) or otherwise known as electron spin resonance (ESR) spectroscopy is the resonant absorption of microwave radiation by an unpaired electron of an atom or molecule (paramagnetic species) when placed in a strong magnetic field. EPR spectra are given as the first derivative of their absorption spectra. It is a powerful technique used to study: 
+
+1. Free Radicals: Atoms, molecules or ions containing one unpaired electron either in the Solid, Liquid or Gaseous Phases.
+2. Transition Ions Including Actinide Ions: These routinely may have up to fiveor seven unpaired electrons.
+3. Various ‘Point’ Defects in solids: Localized Imperfections.
+4. Systems with More than One Unpaired Electron: Triplets state systems, biradicals and multiradicals.
+5. Systems with Conducting Electrons: Semiconductors and metals.
+
+
+Objective:
+
+1.	To understand the basic principle of Electron Paramagnetic Resonance Spectroscopy.
+2. 
+2.	To Interpret simple experimental first order spectra and calculate some of the EPR parameters g, A and w (linewidth).
+
+
+
+
+Theory:
+
+When a molecule or compound with an unpaired electron is placed in a strong magnetic field, the spin of the unpaired electron can align in two different ways creating two spin states, ms = ± ½. The alignment can either be along the direction (parelle) to the magnetic filed which corresponds to the lower energy state ms = - ½ or opposite (antiparallel) to the direction of the applied magnetic field ms = + ½ . The two allignments have different energies and this difference in energy lifts the degeneracy of the electron spin states. The energy difference is given by: 
+
+			Equation 1 (file:equation1_exp1.png)
+			Figure1  (file: figure1_theory_exp.png)
+
+h = Planck’s constant (6.626 x 10-34 J s-1),
+v = the frequency of radiation,
+?ß = Bohr magneton (9.274 x 10-24 J T-1),
+Bo = strength of the magnetic field in Tesla,
+ge = the g-factor 
+
+
+During the experiement the values of h, v, and ß does not change and g value decrease as B increases. The g-factor is a unitless measurement of the intrinsic magnetic moment of the electron, and its value for a free electron is 2.0023. The concept of g can be roughly equated to that of chemical shift in NMR. EPR spectrum is the absorption of microwave frequency radiation ploted against the magnetic field intensity 
+
+ Working principles of EPR: 
+
+In an EPR experiment the field of the spectrometer magnet is swept linearly to excite some of the electrons in the lower energy level to the upper energy level while the sample is exposed to fixed microwave irradiation. The free or the upaired electrons have a small magnetic field and orient themselves parallel to the larger field produced by the spectrometer’s magnet. At a particular magnetic field strength the microwave irradiation will cause some of the free electrons to “flip” and orient against the spectrometer’s magnetic field. This separation between the lower and the higher energy level is exactly matched by our microwave frequency. The condition where the magnetic field and the microwave frequency are “just right” to produce an EPR resonance (or absorption) is known as the resonance condition is detected by the spectrometer., EPR spectroscopy can be carried out by either
+ 
+1) varying the magnetic field and holding the frequency constant or 
+2) varying the frequency and holding the magnetic field constant (as is the case for NMR spectroscopy).
+
+Typically in a comericial spectrometer works by varying the magnetic field and holding the frequency constant. EPR spectrometers working at frequencies ranging from several hundred MHz to several hundred Ghz are in use. 1-2 GHz (L-band) and 2-4 GHz (S-band), 8-10 GHZ (X-Band), 35 Ghz (Q-band) and 95 GHz (W-band). The most commonly used EPR spectrometer is in the range of 9-10 GHz (X-band). 
+
+Methods to record EPR spectra:
+
+Continous wave method: the sample is irradiated continuously with microwave radiation of fixed frequency while the magnetic field is slowly swept and the microwave absorption is measured for each field position
+Pulse EPR: short pulse of high microwave radiation are sent to the sample and the response in the absence radiation are recorded. 
+
+Measuring a CW-EPR spectroscopy can be influenced by various parameters, both instrumental and experimental. The significant aspect of the measurement is to get a high resolved EPR spectrum from a low concentration sample of interest which is dependend on the the sensivity and the resolution of the spectrometer. Microwave bridge and Resonator governs the sensitivity of the signal. Magnet, Magnet field controller, Magnet power supply and signal channel control the resolution of the spectrum obtained. 
+
+				Figure 2 (file:figure2_theory_exp1.gif)
+
+
+Picture source:  http://www.st-andrews.ac.uk/~mmwave/epr/what.html
+
+Application of EPR:
+
+Only direct method to detect the presence of free radicals and to identify the paramagnetic species Provides information on :
+(i) molecular structure near the unpaired electron.
+(ii) EPR spectra lineshape gives insight to dynamic processes molecular motions or fluidity.
+(iii) probes the structure of “active sites” in metalloproteins.
+(iv) dose measurements for sterilization of medical goods and foods,
+(v) detection of irradiated foods, and the dating of early human artifacts. 
+
+EPR parameters:
+
+ 1. Matrix g (electronic Zeeman term):
+Couples magnetic field vector B with electronic spin S. 
+Shows position of spectrum at any given direction of B.
+
+'g' can be written as:
+			Equation:2 (file:equation2_exp1.gif)
+
+
+2. Matrix A (hyperfine term):
+Couples electronic spin with a nuclear spin.
+Describes splitting between lines as a function of field orientation.
+
+3. Linewidth:
+The width of the spectral lines gives the interaction of the electrons with its environment. The electrons interact with the applied magnetic field and also the magnetic field that arises from the surrounding elctron or nuclear spin. The broader the line width larger is the interaction of the electron with the surrounding. 
